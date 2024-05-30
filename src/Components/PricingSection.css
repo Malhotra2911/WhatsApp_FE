@@ -1,0 +1,38 @@
+/* PricingSection.css */
+.pricing-section {
+    padding: 50px 0;
+  }
+  
+  .pricing-section .card {
+    border: 1px solid #e7e7e7;
+    border-radius: 8px;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .pricing-section .card h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .pricing-section .card h5 {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  .pricing-section .card hr {
+    margin: 20px 0;
+  }
+  
+  .pricing-section .card p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .pricing-section .card button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+  

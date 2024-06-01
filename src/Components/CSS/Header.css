@@ -1,0 +1,22 @@
+/* Header.css */
+.navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-nav .nav-link {
+    margin-right: 15px;
+  }
+  
+  .navbar-nav .nav-link:last-child {
+    margin-right: 0;
+  }
+  
+  .d-flex.align-items-center {
+    align-items: center;
+  }
+  
+  button.mr-2 {
+    margin-right: 10px;
+  }
+  

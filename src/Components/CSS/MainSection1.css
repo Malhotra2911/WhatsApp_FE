@@ -1,0 +1,29 @@
+src/components/CSS/MainSection1.css
+
+.card {
+  border: none;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.card-text {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 576px) {
+  .card-title {
+    font-size: 1.25rem;
+  }
+  .card-text {
+    font-size: 0.875rem;
+  }
+}

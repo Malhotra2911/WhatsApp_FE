@@ -22,7 +22,7 @@ const Dashboard = () => {
             <Col md={8}>
               <Card className="mb-4">
                 <Card.Body>
-                  <Card.Title>Start WhatsApp Engagement for your Business</Card.Title>
+                  <Card.Title>Start WhatsApp Engagement for your Business.</Card.Title>
                   <Card.Text>Your account is currently in test mode. You can try & experience a feature like Broadcasting.</Card.Text>
                   <Card.Text>Test Business number: +919810765443</Card.Text>
                   <Button variant="success" className="mr-2">Apply for WhatsApp Business API (FREE)</Button>

@@ -1,0 +1,193 @@
+/* Contacts.css */
+.contacts {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .contacts-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .quick-guide {
+    max-width: 400px;
+  }
+  
+  .quick-guide-title {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  
+  .quick-guide-import {
+    font-size: 14px;
+    color: #007bff;
+  }
+  
+  .watch-tutorial {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: transparent;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  .contacts-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .broadcast-button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 5px;
+    color: #888;
+    cursor: pointer;
+  }
+  
+  .add-contact, .import-button, .actions-button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .import-dropdown {
+    position: relative;
+  }
+  
+  .import-options {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    top: 100%;
+    left: 0;
+  }
+  
+  .import-dropdown:hover .import-options {
+    display: block;
+  }
+  
+  .import-options button {
+    padding: 10px 20px;
+    width: 100%;
+    background-color: white;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+  }
+  
+  .contacts-search {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .contacts-search input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contacts-search .filter-button {
+    margin-left: 10px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contacts-list {
+    overflow-x: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contacts-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .contacts-list th, .contacts-list td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  .contacts-list th {
+    background-color: #f1f1f1;
+  }
+  
+  .modall {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+   .modal-contentt {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 500px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .close-button {
+    float: right;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .modall-body input, .modall-body textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .modall-footer {
+    display: flex;
+    justify-content: flex-end;
+  } 
+  
+  .cancel-button, .send-button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cancel-button {
+    background-color: #ccc;
+    color: white;
+  }
+  
+  .send-button {
+    background-color: #007bff;
+    color: white;
+  }
+  
